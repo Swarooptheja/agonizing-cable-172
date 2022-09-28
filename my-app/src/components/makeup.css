@@ -1,0 +1,65 @@
+#makeupcontainer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 85%;
+    height: 150px;
+    gap: 20px;
+    /* border: 1px solid green; */
+    margin: auto;
+
+
+}
+#makeupcontainer>div{
+    border: 2px solid red;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#makeupcontainer>div:hover{
+    background-color: rgb(233, 39, 39);
+    color: white;
+    border: 1px solid rgb(235, 111, 111) ;
+}
+#makeuptopcontainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 85%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+#makeuptopcontainer>div{
+    /* border: 1px solid green; */
+}
+#makeuptopcontainerimage{
+    width: 85%;
+    height: 80vh;
+}
+ #makeuptopcontainertext>div h1 p{ 
+    align-items: center;
+   
+}
+#makeupbottomcontainer{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    gap: 20px;
+    margin-top: 10rem;
+}
+#makeupbottomcontainerimage{
+    width: 350px;
+    height: 250px;
+}
+/* #makeuptopcontainertext>div{
+    border: 1px solid greenyellow;
+}  */

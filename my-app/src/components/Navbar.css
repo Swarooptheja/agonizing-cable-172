@@ -1,0 +1,78 @@
+#Navbarcontainer{
+    display: grid;
+    grid-template-rows:50% 70%;
+    width: 100%;
+    height: 8rem;
+   
+}
+#Navbarcontainer>div{
+    /* border: 1px solid red; */
+}
+#Navtop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#Navtop>div{
+    /* border: 1px solid green; */
+}
+#Navbottom{
+    /* display: grid;
+    grid-template-columns: repeat(9,1fr);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.dropdown>button{
+    border: none;
+    cursor: pointer;   
+    background-color: white; 
+
+}
+/* .dropdown{
+    /* position: relative; */
+    /* display: inline-block; */
+/* }  */
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin: auto;
+    margin-right: 50px;
+    /* width: 100%; */
+    /* box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%); */
+    z-index: 1;
+}
+.dropdowncontent  a{
+    /* display: block; */
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+   
+}
+.dropdowncontent a:hover {
+    background-color: black;
+    color: white;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+    color: black;
+    cursor: pointer;
+}
+/* .dropdown:hover .dropdownbutton{
+    color: black;
+    cursor: pointer;
+} */
+/* .dropdownbutton:hover{
+    display: block;
+    color: black;
+    background-color: red;
+    
+} */
+
+
+
