@@ -12,7 +12,7 @@ function News(){
     let [text2,settext2]=useState("")
     console.log(params)
     let getdata=()=>{
-        axios.get(`https://newsapi.org/v2/everything?q=${params}&from=2022-08-28&sortBy=publishedAt&apiKey=d1b53b7024ed490fbdb47151694807b1`)
+        axios.get(`https://newsapi.org/v2/everything?q=${params}&from=2022-08-29&sortBy=publishedAt&apiKey=d1b53b7024ed490fbdb47151694807b1`)
         .then((res)=>{
             console.log(res)
             console.log(res.data.articles,"theja")
@@ -55,7 +55,7 @@ function News(){
 
         <div id="newsbottomcontainer">
             {newsdata.map((el)=>(
-                <div id={el.author}>
+                <div id={el.titie}>
                     <img id="newsbottomcontainerimage" src={el.urlToImage} alt="image" />
                     <h3>{el.title}</h3>
                 </div>

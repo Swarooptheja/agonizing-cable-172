@@ -1,0 +1,227 @@
+#Homemaincontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 75vh;
+    margin-top: 30px;
+    /* gap: 20px ; */
+}
+#Homemaincontainer>div{
+    /* border: 1px solid greenyellow; */
+}
+.topimages{
+    width: 100%;
+    height: 100%;
+}
+#Homemaincontainertext{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+#Homemaincontainertext>div{
+    /* border: 1px solid greenyellow; */
+}
+.imagetext{
+    font-size: large;
+    font-weight: bolder;
+}
+#Homepagefollowers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+#Homepagefollowers>div{
+    /* border: 1px solid green; */
+    border-radius: 15px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+}
+.boxes>div{
+    border: 1px solid gray;
+    border-radius: 2rem;
+}
+#fbbox{
+    background-color: rgb(6, 6, 139);
+    color: white;
+    border-radius: 15px;
+}
+#instabox{
+    background-color: rgba(194, 46, 162, 0.87);
+    color: white;
+    border-radius: 15px;
+
+}
+#pinsetbox{
+    background-color: rgb(245, 53, 53);
+    color: white ;
+    border-radius: 15px;
+}
+.pin{
+    color: rgb(245, 53, 53) ;
+}
+.fb{
+    color: rgb(6, 6, 139) ;
+}
+.insta{
+    color:  rgba(194, 46, 162, 0.87) ;
+}
+#link{
+    color: black;
+    letter-spacing: 2px;
+    text-decoration-color: red;
+}
+#Homepagemakeupcontainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#Homepagemakeupcontainer>div{
+    /* border: 1px solid green; */
+}
+#Homepagemakeupcontainerimage{
+    width: 100%;
+    border-radius: 1rem;
+}
+#homepagemakeupcontainerimagesidetext{
+    margin-top: 8rem;
+}
+#Homepagemakeupbottom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+}
+.Homepagemakeupbottomimage{
+    width: 100%;
+    border-radius: 1rem;
+}
+#Homepagehaircarecontainertop{
+    width: 100% ;
+    height: 140vh;
+    background-color: rgb(212, 52, 114);
+}
+#haircarelink{
+    text-decoration-color:white;
+    color: white;
+    letter-spacing: 1px;
+}
+#Homepagehaircarecontainermiddle{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 85%;
+    margin: auto;
+    
+}
+#Homepagehaircarecontainermiddle>div{
+    /* border: 1px solid red; */
+}
+#middle{
+    width: 100%;
+    height: 85%;
+    margin-top: 30px;
+    background-color: white;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2rem;
+    
+}
+#Homepagehaircontainerbottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+}
+#Homepagehaircontainerbottom>div{
+    /* border: 1px solid red; */
+}
+#lefthaircare{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* border: 1px solid red; */
+}
+#lefthaircare>div{
+    /* border: 1px solid red; */
+}
+#lefthaircare>div:nth-child(2){
+    /* margin-top: 2rem; */
+    /* margin-bottom: 3rem; */
+    /* padding-left: 5rem; */
+   
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    width: 100%;
+    height: 80%;
+    margin-top: 13%;
+}
+#lefthaircareimage{
+    /* width: 130%; */
+    width: 120%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 4rem;
+    /* border-radius: 2rem; */
+    /* margin-top: 1rem; */
+    /* margin-top: 3rem; */
+    border-radius: 1rem;
+}
+#righthaircare{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* border: 1px solid red; */
+}
+#righthaircare>div{
+    /* border: 1px solid red; */
+}
+#righthaircare>div:nth-child(2){
+    /* margin-top: 2rem; */
+    /* margin-bottom: 3rem; */
+    /* padding-left: 5rem; */
+   
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    width: 100%;
+    height: 80%;
+    margin-top: 13%;
+}
+#righthaircareimage{
+    /* width: 130%; */
+    width: 120%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 4rem;
+    /* border-radius: 2rem; */
+    /* margin-top: 1rem; */
+    /* margin-top: 3rem; */
+    border-radius: 1rem;
+}
+#righthaircare>div:nth-child(2)>h3{
+    margin-top: 5rem;
+}
+#lefthaircare>div:nth-child(2)>h3{
+    margin-top: 5rem;
+}
+.Homepagehaircarecontainermiddleimage{
+    border-radius: 1rem;
+}

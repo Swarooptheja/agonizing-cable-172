@@ -60,6 +60,13 @@
     width: 350px;
     height: 250px;
 }
+#middleh2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
 /* #makeuptopcontainertext>div{
     border: 1px solid greenyellow;
 }  */
