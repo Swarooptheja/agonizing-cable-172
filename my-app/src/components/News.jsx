@@ -1,7 +1,11 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
+import { Link } from "react-router-dom"
+import Footer from "./Footer"
 import "./news.css"
+import Singlepage from "./Singlepage"
+
 
 function News(){
     let [newsdata,setnewsdata]=useState([])
@@ -11,11 +15,14 @@ function News(){
     let [text1,settext1]=useState("")
     let [text2,settext2]=useState("")
     console.log(params)
+   
     let getdata=()=>{
-        axios.get(`https://newsapi.org/v2/everything?q=${params}&from=2022-08-29&sortBy=publishedAt&apiKey=d1b53b7024ed490fbdb47151694807b1`)
+        axios.get(`
+        https://newsapi.org/v2/everything?q=${params}&from=2022-08-30&sortBy=publishedAt&apiKey=d1b53b7024ed490fbdb47151694807b1`)
         .then((res)=>{
             console.log(res)
             console.log(res.data.articles,"theja")
+           
             setnewsdata(res.data.articles)
             setfirstimage(res.data.articles[0].urlToImage)
             console.log(res.data.articles[0].urlToImage)
@@ -34,7 +41,7 @@ function News(){
             <div onClick={()=>setparams("IndiaRangoli")}>Rangoli</div>
             <div onClick={()=>setparams("flowers")}>Flowers</div>
             <div onClick={()=>setparams("Tattoos")}>Tattoos</div>
-            <div onClick={()=>setparams("Celebrity news")}>Celebrity news</div>
+            <div onClick={()=>setparams("Aishwarya Rai")}>Celebrity news</div>
             <div onClick={()=>setparams("Fashion")}>Fashion</div>
             <div onClick={()=>setparams("Top 10's")}>Top 10's</div>
 
@@ -55,9 +62,12 @@ function News(){
 
         <div id="newsbottomcontainer">
             {newsdata.map((el)=>(
-                <div id={el.titie}>
+                <div key={el.titie} id="newsimage"  >
+                   <Link to="/news/newsid">
                     <img id="newsbottomcontainerimage" src={el.urlToImage} alt="image" />
-                    <h3>{el.title}</h3>
+                    <h3 id="newstitle">{el.title}</h3>
+                    </Link>
+                   
                 </div>
             ))}
            
@@ -69,6 +79,7 @@ function News(){
             <button>{page}</button>
             <button onClick={()=>setpage(page+1)}>NEXT</button>
         </div>
+        <Footer/>
 
     </div>
 }

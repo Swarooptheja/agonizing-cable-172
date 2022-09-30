@@ -2,6 +2,7 @@ import "./makeup.css"
 import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
+import Footer from "./Footer"
 function Makeup(){
     let [makeupdata,setmakeupdata]=useState([])
     let [page,setpage]=useState(1)
@@ -50,12 +51,14 @@ function Makeup(){
                     <h3>{el.name}</h3>
                 </div>
             ))}
-            <button disabled={page==1} onClick={()=>setpage(page-1)}>PREV</button>
-            <button>{page}</button>
-            <button onClick={()=>setpage(page+1)}>NEXT</button>
+            
             
 
         </div>
+        <button disabled={page==1} onClick={()=>setpage(page-1)}>PREV</button>
+            <button>{page}</button>
+            <button onClick={()=>setpage(page+1)}>NEXT</button>
+        <Footer/>
 
     </div>
 }

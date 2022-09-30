@@ -1,0 +1,32 @@
+#Singlepagecontainertop{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+}
+
+#siglepagecontainertopimage{
+    width: 100%;
+    border-radius: 2rem;
+}
+#singlepageh2{
+    margin-top: 25rem;
+}
+#singlepagebottomcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    height: 180vh;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 50vh;
+    gap: 2rem;
+
+}
+
+.bottomimage{
+    width: 100%;
+    border-radius: 2rem;
+
+}

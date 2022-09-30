@@ -1,13 +1,18 @@
 
 import { Link } from "react-router-dom"
 import "./Navbar.css"
+// import {Link} from "react-router-dom"
 function Navbar(){
     return (
+      
         <div id="Navbarcontainer">
+          
             <div id="Navtop">
                 <div></div>
                 <div>
+                   <Link to="/">
                     <img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="navbar image" />
+                    </Link>
                 </div>
                 <div></div>
             </div>

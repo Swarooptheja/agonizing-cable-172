@@ -62,3 +62,11 @@
 /* #makeuptopcontainertext>div{
     border: 1px solid greenyellow;
 }  */
+#newsimage{
+    cursor: pointer;
+}
+#newstitle{
+    color: black;
+    text-decoration-color: white;
+    /* text-decoration: none; */
+}
