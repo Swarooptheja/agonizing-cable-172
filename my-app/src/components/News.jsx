@@ -18,7 +18,7 @@ function News(){
    
     let getdata=()=>{
         axios.get(`
-        https://newsapi.org/v2/everything?q=${params}&from=2022-08-30&sortBy=publishedAt&apiKey=d1b53b7024ed490fbdb47151694807b1`)
+        https://newsapi.org/v2/everything?q=${params}&apiKey=d1b53b7024ed490fbdb47151694807b1`)
         .then((res)=>{
             console.log(res)
             console.log(res.data.articles,"theja")
