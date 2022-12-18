@@ -2,11 +2,13 @@
 <img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png"/>
 
 <img src="" alt=""/>
+![download](https://user-images.githubusercontent.com/105914391/208310983-0961d29f-6f43-4a9c-bb49-f1bd30536bed.png)
  Women's Fashion, Beauty And Wellness Community to get solutions to all your Beauty queries and stay upto on the latest Beauty Trends.
 
 <h2>Members :</h2>
 
 <p>
+
 
  <br>
 Member 1 : Theja Swaroop
