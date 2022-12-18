@@ -36,7 +36,7 @@ React.js, react-dom, chakraUI, CSS, JavaScript
 
 <h2>ScreenShot of the clone Website.</h2>
 
-![s1](https://user-images.githubusercontent.com/105920094/201532839-36a7bb13-512a-40cf-a463-276991abb001.png)
+![s1](https://ibb.co/ggrsT8m)
 ![s2](https://user-images.githubusercontent.com/105920094/201532841-d75eb24d-19c5-4252-8b50-3f185e54936b.png)
 ![s3](https://user-images.githubusercontent.com/105920094/201532853-f9f60e54-c65d-4df4-82a4-168cd9a153a8.png)
 ![s4](https://user-images.githubusercontent.com/105920094/201532857-9df362d7-f12e-49e6-a75f-0e0e9272c080.png)
