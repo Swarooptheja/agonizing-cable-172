@@ -16,10 +16,10 @@ Member 1 : Theja Swaroop
 
 <h2> Beauty</H2>
 
-<h2>Our Logo :</h2>
+<h2>Our Logo :Beauty</h2>
 
 
-![download](https://user-images.githubusercontent.com/105914391/208310983-0961d29f-6f43-4a9c-bb49-f1bd30536bed.png)
+![download](https://user-images.githubusercontent.com/105914391/208310983-0961d29f-6f43-4a9c-bb49-f1bd30536bed.png)<br/>
 I have made this website with the help of ReactJS.
 
 
